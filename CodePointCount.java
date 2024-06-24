@@ -11,7 +11,7 @@ class CodePointCount
 	public static void main(String[] args) {
 		
 		int indx = userCodePointCount(-3,3);
-		System.out.println(str+ " : "+indx);
+		System.out.println(str+ " : " +indx);
 	}
 	public static int userCodePointCount(int startIndx, int endIndx)
 	{
