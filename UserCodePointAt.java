@@ -6,7 +6,7 @@
 
 class UserCodePointAt
 {
-	static String str = new String("ABCDEFGHJ");
+	static String str = new String("ABCDEFGHJ");  // length and capacity
 	public static void main(String[] args) {
 
 		int indx = userCodePointAt(0);   // method
