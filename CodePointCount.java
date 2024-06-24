@@ -1,3 +1,9 @@
+// run status : true
+
+// 24-06-2024
+
+// String method CodePointCount(int startindex, int endIndex);
+
 class CodePointCount
 {
 	static String str = new String("ABCDEFGHI");
