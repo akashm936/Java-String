@@ -1,3 +1,6 @@
+// run status  : true
+
+// some function is reamining
 import java.util.Scanner;
 
 class GymDiscount
