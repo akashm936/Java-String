@@ -1,3 +1,10 @@
+// run status : true
+
+// 24-06-2024
+
+// String method CodePointBefore
+
+
 class CodePointBefore
 {
 	static String str = new String("ABCD");
