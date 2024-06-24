@@ -7,10 +7,10 @@
 
 class CodePointBefore
 {
-	static String str = new String("ABCD");
+	static String str = new String("ABCD");  // length = 4 : capacity : 16 
 	public static void main(String[] args) {
 		
-		int indx = userCodePointBefore(3);
+		int indx = userCodePointBefore(3);  //length
 		System.out.println("str"+ " : "+indx);
 	}
 
