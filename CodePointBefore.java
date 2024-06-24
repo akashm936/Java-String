@@ -3,7 +3,7 @@ class CodePointBefore
 	static String str = new String("ABCD");
 	public static void main(String[] args) {
 		
-		int indx = userCodePointIntBefore(5);
+		int indx = userCodePointBefore(5);
 		System.out.println("str"+ " : "+indx);
 	}
 
