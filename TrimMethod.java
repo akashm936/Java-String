@@ -16,12 +16,33 @@ class TrimMethod
 
 	public static String userTrim()
 	{
+		String op = "";
+		int indx = 0;
 		for(int i=0;i<str.length();i++)
 		{
-			if(str==" ")
+			if(str.charAt(i)!=' ')
 			{
-				
+				indx = i;
+				break;
 			}
 		}
+		op = str.substring(indx);
+		for(int i=str.length();i>=0;i--)
+		{
+			if(str.charAt(i)!=' ')
+			{
+				indx = i;
+				break;
+			}
+		}
+		op = op.substring(0,indx-1);
+		System.out.println(op + " : "+(op.length()));
+
+         return op;
+
 	}
 }
+
+// equalIgnoreCase
+// concat
+// compareTo 
