@@ -1,6 +1,6 @@
 import java.util.Scanner;
-
-class EndsWith
+// remanning
+class StartWith
 {
 	static String str;
 	static String str1;
@@ -22,7 +22,7 @@ class EndsWith
 	public static boolean userStartWith(String str1)
 	{
 		boolean flag =true;
-        for(int i=str1.length();i<0;i++)
+        for(int i<0;i=str1.length();i++)
         {
         	char ch = str1.charAt(i);
         	if(ch!= str1.charAt(i))
@@ -36,7 +36,7 @@ class EndsWith
 
 	public static boolean userStartWith(String str1, int startIndx)
 	{
-		if(startIndx<0 && startIndx>str.length())
+		if(startIndx<0|| startIndx>str.length()-1)
 		{
 			throw new StringIndexOutOfBoundsException("Wrong indx "+ startIndx);
 		}
@@ -46,7 +46,7 @@ class EndsWith
 			char ch= str1.charAt(i);
 			if(ch!=str.charAt(i))
 			{
-				flag= false;
+				flag = false;
 				break;
 			}
 		}
