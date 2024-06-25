@@ -1,6 +1,11 @@
+// run status : true
+
+//26-06-2024
 import java.util.Scanner;
 
 class DiscountProg
+
+
 {
 
 	public static void main(String[] args) {
