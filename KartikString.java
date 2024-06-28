@@ -10,6 +10,12 @@ class Karthik
 		this.gf2=gf2;
 		this.gf3=gf3;
 	}
+
+	//overriding Equals ()
+	@Override
+	public boolean equals(){
+	//remaning
+	}
 	public static void main(String[] args) {
 		
 	}
