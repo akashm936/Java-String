@@ -2,8 +2,8 @@
 
 //22-06-2024
 
-import java.util.Scanner;
 import java.util.Arrays;
+import java.util.Scanner;
 
 class StringExample
 {
